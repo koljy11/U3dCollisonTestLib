@@ -7,12 +7,7 @@ using UnityEngine;
 public class Sphere : ShapeThreeD
 {
 
-    protected override void Start()
-    {
-        base.Start();
-
-
-    }
+   
 
     /// The center point of this sphere.
     public Vector3 pos;
@@ -21,9 +16,9 @@ public class Sphere : ShapeThreeD
     public float r;
   
 
-    public void Update()
+    public void Update(Transform transform)
     {
-        pos = transform.position;
+       pos = transform.position;
         r = transform.localScale.x*0.5f;
     }
 

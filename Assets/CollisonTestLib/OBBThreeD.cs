@@ -723,32 +723,23 @@ public class OBBThreeD : ShapeThreeD
         return Center + mulX + mulY + mulZ;
     }
 
-    private void Awake()
-    {
-        if (useThisTransform)
-            obbView = transform;
-        else
-            obbView = transform.Find("CharacterOBB");
+    
 
 
-    }
+    //public bool useThisTransform;
 
-
-    public bool useThisTransform;
-
-    [SerializeField]
-    public Transform obbView;
-    private void Update()
+   
+    public void Update(Transform transform)
     {
 
-        SetFrom(obbView.transform.position, obbView.rotation, 0.5f * obbView.localScale);
+        SetFrom(transform.position, transform.rotation, 0.5f * transform.localScale);
         var center = transform.position;
         var size = transform.localScale;
 
         var halfSize = 0.5f * size;
         minPoint = center - halfSize;
         maxPoint = center + halfSize;
-        SetFromWithAix(obbView.transform.position, minPoint, maxPoint, transform.rotation);
+        SetFromWithAix(transform.position, minPoint, maxPoint, transform.rotation);
     }
 
 

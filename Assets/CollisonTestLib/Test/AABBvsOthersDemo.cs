@@ -11,11 +11,11 @@ public class AABBvsOthersDemo : MonoBehaviour {
     AABBGameObject target;
 
     [SerializeField]
-    OBBThreeD targetOBB;
+    OBBGameObject targetOBB;
     // Use this for initialization
 
     [SerializeField]
-    Sphere sphere;
+    SphereGameObject sphere;
 
 
     [SerializeField]
@@ -48,14 +48,14 @@ public class AABBvsOthersDemo : MonoBehaviour {
             obbClosion = false;
             if (targetOBB != null)
             {
-                obbClosion = sourcesTarget.data.Intersects(targetOBB);
+                obbClosion = sourcesTarget.data.Intersects(targetOBB.data);
 
             }
 
             sphereCollsion = false;
             if (sphere != null)
             {
-                sphereCollsion = sourcesTarget.data.Intersects(sphere);
+                sphereCollsion = sourcesTarget.data.Intersects(sphere.data);
 
             }
 

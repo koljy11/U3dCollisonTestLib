@@ -5,17 +5,17 @@ using UnityEngine;
 public class OBBvsOthersDemo : MonoBehaviour {
 
     [SerializeField]
-    OBBThreeD sourcesTarget;
+    OBBGameObject sourcesTarget;
 
     [SerializeField]
     AABBGameObject target;
 
     [SerializeField]
-    OBBThreeD targetOBB;
+    OBBGameObject targetOBB;
     // Use this for initialization
 
     [SerializeField]
-    Sphere sphere;
+    SphereGameObject sphere;
 
 
     [SerializeField]
@@ -49,21 +49,21 @@ public class OBBvsOthersDemo : MonoBehaviour {
             aabbClosion = false;
             if (target != null)
             {
-                aabbClosion = sourcesTarget.Intersects(target.data);
+                aabbClosion = sourcesTarget.data.Intersects(target.data);
                 // col1 = data.Contains(target.data); 
             }
 
             obbClosion = false;
             if (targetOBB != null)
             {
-                obbClosion = sourcesTarget.Intersects(targetOBB);
+                obbClosion = sourcesTarget.data.Intersects(targetOBB.data);
 
             }
 
             sphereCollsion = false;
             if (sphere != null)
             {
-                sphereCollsion = sourcesTarget.Intersects(sphere);
+                sphereCollsion = sourcesTarget.data.Intersects(sphere.data);
 
             }
 
