@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/AABBvsOBBvsShpere.unity
+- path: Assets/U3dCollson/Scene/AABBvsOBBvsShpere.unity
   isLoaded: 1
   isActive: 1
