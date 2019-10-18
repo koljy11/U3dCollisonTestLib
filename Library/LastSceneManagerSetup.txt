@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CollisonTestLib/AABBvsOBBvsShpere.unity
+- path: Assets/Scene/AABBvsOBBvsShpere.unity
   isLoaded: 1
   isActive: 1

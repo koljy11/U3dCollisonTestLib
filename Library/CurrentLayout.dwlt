@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 92
+  controlID: 70
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,14 +365,14 @@ MonoBehaviour:
     width: 873
     height: 576
   m_SceneLighting: 1
-  lastFramingTime: 1625.1106556999998
+  lastFramingTime: 19.3756147
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.2690167, y: -0.140625, z: -0.5200575}
+    m_Target: {x: 3.3510742, y: 1.3359375, z: -1.5927734}
     speed: 2
-    m_Value: {x: 5.2690167, y: -0.140625, z: -0.5200575}
+    m_Value: {x: 3.3510742, y: 1.3359375, z: -1.5927734}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -395,13 +395,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.24998389, y: -0.20859756, z: 0.055245426, w: 0.94389784}
+    m_Target: {x: 0.38971564, y: -0.20980226, z: 0.0916605, w: 0.8920222}
     speed: 2
-    m_Value: {x: -0.24998389, y: 0.20859756, z: -0.055245426, w: -0.94389784}
+    m_Value: {x: 0.38971555, y: -0.20980221, z: 0.09166048, w: 0.89202195}
   m_Size:
-    m_Target: 6.0192385
+    m_Target: 14.028869
     speed: 2
-    m_Value: 6.0192385
+    m_Value: 14.028869
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -485,7 +485,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e4fbffff00000000
+    m_ExpandedIDs: e4fbffff00000000b4250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -536,8 +536,7 @@ MonoBehaviour:
     height: 926
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames:
-    - Scene
+    m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -546,18 +545,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/CollisonTestLib
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/CollisonTestLib
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\U3dProjects\U3dCollisonTestLib
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
+    m_SelectedIDs: 48250000
+    m_LastClickedID: 9544
     m_ExpandedIDs: 00000000ce2400004825000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -613,7 +612,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 6e2700008c270000403600001c270000cc2c00002e3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -640,7 +639,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
-  m_DirectoriesAreaWidth: 224
+  m_DirectoriesAreaWidth: 258
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -664,7 +663,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1570
-    y: 17
+    y: 92
     width: 350
     height: 926
   m_ScrollPosition: {x: 0, y: 0}
